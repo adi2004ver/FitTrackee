@@ -3,7 +3,7 @@
   "public": true,
   "name": "fittrackee",
   "buildCommand": "cd fittrackee_client && yarn install && yarn build",
-  "outputDirectory": "fittrackee_client/dist",
+  "outputDirectory": "fittrackee/dist",
   "framework": "vite",
   "rewrites": [
     {
