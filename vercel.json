@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "public": true,
+  "name": "fittrackee",
+  "buildCommand": "cd fittrackee_client && yarn install && yarn build",
+  "outputDirectory": "fittrackee_client/dist",
+  "framework": "vite",
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "https://your-backend-api-url.com/api/$1"
+    }
+  ]
+}
